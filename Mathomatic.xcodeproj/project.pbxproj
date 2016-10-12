@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		41EAA64F1DAE67480034EA25 /* Mathomatic.h in Headers */ = {isa = PBXBuildFile; fileRef = 41EAA64D1DAE67480034EA25 /* Mathomatic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41EAA6561DAE68420034EA25 /* Functions.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EAA6551DAE68420034EA25 /* Functions.m */; };
+		41EAA6861DAE876F0034EA25 /* Functions.h in Headers */ = {isa = PBXBuildFile; fileRef = 41EAA6571DAE68520034EA25 /* Functions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		41EAA64A1DAE67480034EA25 /* Mathomatic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mathomatic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41EAA64D1DAE67480034EA25 /* Mathomatic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mathomatic.h; sourceTree = "<group>"; };
 		41EAA64E1DAE67480034EA25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41EAA6551DAE68420034EA25 /* Functions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Functions.m; sourceTree = "<group>"; };
+		41EAA6571DAE68520034EA25 /* Functions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Functions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				41EAA64D1DAE67480034EA25 /* Mathomatic.h */,
 				41EAA64E1DAE67480034EA25 /* Info.plist */,
+				41EAA6551DAE68420034EA25 /* Functions.m */,
+				41EAA6571DAE68520034EA25 /* Functions.h */,
 			);
 			path = Mathomatic;
 			sourceTree = "<group>";
@@ -59,6 +65,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41EAA6861DAE876F0034EA25 /* Functions.h in Headers */,
 				41EAA64F1DAE67480034EA25 /* Mathomatic.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41EAA6561DAE68420034EA25 /* Functions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +297,7 @@
 				41EAA6541DAE67480034EA25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
